@@ -45,7 +45,3 @@ Script providing code for webscraping the page is contained in Bitcoin_Tweet_Scr
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
-
-* Thanks to Udacity for giving me the opportunity to work on this project and grow as a data analyst!
-

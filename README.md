@@ -1,6 +1,8 @@
 # Bitcoin-Analysis
 In this analysis we look at the relationship of bitcoin prices with tweets and see if we can use bitcoin tweets as a predictor for the price of the cryptocurrency. We try to see if there is a connection of bitcoin prices by the number of times bitcoin is tweeted about and if the number of tweets can be a good predictor for bitcoin prices. We peform an EDA and attempt to model a relationship with a Simple Linear Regression.
 
+The analysis is contained in the bitcoin_analysis.ipynb file.
+
 
 ### Prerequisites
 

@@ -1,5 +1,5 @@
 # Bitcoin-Analysis
-In this analysis we look at the relationship of bitcoin prices with tweets and see if we can use bitcoin tweets as a predictor for the price of the cryptocurrency.
+In this analysis we look at the relationship of bitcoin prices with tweets and see if we can use bitcoin tweets as a predictor for the price of the cryptocurrency. We try to see if there is a connection of bitcoin prices by the number of times bitcoin is tweeted about and if the number of tweets can be a good predictor for bitcoin prices. We peform an EDA and attempt to model a relationship with a Simple Linear Regression.
 
 
 ### Prerequisites
@@ -11,6 +11,9 @@ In order to do this analysis the following libraries were used:
 * seaborn 
 * matplotlib
 * quandl
+* statsmodels.api
+* scipy.stats
+* sklearn.preprocessing
 
 Enter the following into the terminal:
 ```
@@ -19,6 +22,10 @@ pip install pandas
 pip install seaborn
 pip install matplotlib
 pip install quandl
+pip install statsmodels
+pip install scipy
+pip install sklearn
+
 ```
 
 ### The Data
@@ -26,6 +33,7 @@ pip install quandl
 Here is a link to their website: https://www.quandl.com/
 
 * Tweets with #Bitcoin were webscraped from bitinfochart's bitcoin tweets historical chart here: https://bitinfocharts.com/comparison/bitcoin-tweets.html
+Script providing code for webscraping the page is contained in Bitcoin_Tweet_Scraper.ipynb.
 
 ## Author
 
